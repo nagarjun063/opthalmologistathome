@@ -1,0 +1,9 @@
+We used keras library to train a sequential neural network to classify the images of an eye based on the possibility of the presence 
+of cataract. 
+
+Evaluation result on Test Data : Loss = 0.6931448446379768, accuracy = 0.5015015015015015
+
+The low accuracy score was due to the lack of a dataset. We had to manually download 17 cataract and normal eye images and use data
+augmentations to generate total of 1000 images per class. In other words the original images, and the hencce generated images, were able 
+to train a neural net for a 50.1% accuracy only. Provided a better dataset, the accuracy for the trained model would also increase
+significantyl.

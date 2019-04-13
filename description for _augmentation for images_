@@ -1,0 +1,12 @@
+We manually downloaded 17 images from google of eyes with cataract. Then we ran the code, as shown in the jupyter notebook, to 
+generate 1000 cataract eye images. We added basic augmentations to the original images like:
+>rotate
+>flip_left_right
+>random zoom
+>flip_top_bottom
+
+We used the "Augmentor" library to implement these functions. 
+As a result, we were able to generate a part of the dataset which containg 1000 images for eyes having cataract.
+
+Similarly, we manually downloaded 17 images of normal eyes and performed the same feature augmentations to generate 
+1000 normal eye images.

@@ -1,0 +1,12 @@
+We are using a Convolutional Neural Network (CNN) to train the machine learning model for classifying the eye images as 
+"Normal" or "Cataract".
+
+The dataset generated was split into training and testing portions in the ratio of 4:1 ratio. 
+As a result, we had training data for -> 1556 images
+                    testing data for  -> 389 images
+                    
+The CNN was designed to run for 30 epocs ie the entire training dataset would be iterated 30 times for readjusting the weights of the CNN.
+The model has an accuracy score of: 0.9640102829295749 or 96.401% 
+
+At the end of the model prediction, the trained model is saved as "CNNCataract.h5" file. The ".h5" file stores the various weight values
+for any future prediction so that we need not train the model everytime we need to make a prediction.

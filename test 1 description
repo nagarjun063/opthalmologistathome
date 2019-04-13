@@ -1,0 +1,3 @@
+Before the cataract classification model, we are training a model for identifying the shape of a figure to get the connection
+between keras model and the ios implementation model. For that the '.h5' keras model needs to be converted into a '.mlmodel' with the 
+help of "CoreML". Then we can use the model for prediction in an ios app. 

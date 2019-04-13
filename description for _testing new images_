@@ -1,0 +1,11 @@
+In this juyter notebook, we loaded the previously trained machine learning model.
+Then we took an image of our eye as an example for testing a non-cataract eye image and an unseen cataract eye image from google.
+
+For the non-cataract image, the model gave the prediction array as : [1,0]
+and for the cataract image, the model gave the prediction array as : [0,1]
+
+The 1 in the ar[0] location shows that the model is 100% confident in predicting the image as a non-cataract eye's image, whereas
+the 1 in the ar[1] location shows that the model is 100% confident in predicting the image as a cataract eye's image.
+
+Say for an image the predicted array is [0.8, 0.2]. This suggests that the model is 80% confident that the imgae is of non-cataract eye 
+and 20% confident that the imgae is of a cataract eye.
